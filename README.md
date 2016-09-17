@@ -4,6 +4,13 @@ SashuDo supports Parse Server WebHooks :) With this, you can now specify any URL
 
 With this example we want to show you a simple implementation of webhook handler with Python.
 
+# Requirements
+- Git (https://git-scm.com/)
+- Python 2.7 (https://www.python.org/)
+- ngrok (https://ngrok.com/)
+- Flask framework (http://flask.pocoo.org/)
+
+
 # Run it locally
 
 ### 1. Clone this project on you computer.
@@ -67,9 +74,3 @@ After that just use `https://89461962.ngrok.io/webhook` as a webhook URL in Sash
 # Fin
 
 That's it! Happy coding!
-
-# Requirements
-- Git (https://git-scm.com/)
-- Python 2.7 (https://www.python.org/)
-- ngrok (https://ngrok.com/)
-- Flask framework (http://flask.pocoo.org/)

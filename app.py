@@ -1,4 +1,3 @@
-from time import sleep
 from random import randrange
 from flask import Flask, request, jsonify
 
@@ -35,7 +34,6 @@ def make_payment(user_id):
     # Here we'll implement payment logic
     # for now we'll just fake it :)
     rand = randrange(1,20)
-    sleep(2)
     is_success = randrange(1,20) % 2 == 0
 
     if is_success:
